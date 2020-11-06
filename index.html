@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cifrado</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo.css'>
+    <script src='js/cifrado.js'></script>
+</head>
+<body>
+    <h1 id="Titulo">Cifrado Cesar</h1>
+    <div class="inputs">
+        Palabra:    <input type="text" name="palabraTxt" id="palabraTxt" size="20" maxlength="20"><br>
+        Salto:  <input type="number" name="salto" id="salto" size="20" max="99"><br>
+        Resultado:  <input type="text" name="cifradoTxt" id="cifradoTxt" readonly maxlength="20"><br>
+    </div>
+        <input type="button" name="cifrarBtn" value="Cifrar" id="cifrarBtn" onclick="Cifrar()" >
+        <input type="button" name="descifrarBtn" value="Descifrar" id="descifrarBtn" onclick="Descifrar()"> 
+    
+</body>
+</html>
